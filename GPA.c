@@ -3,7 +3,7 @@
 int main(){
     int subject_number;
     scanf("%d",&subject_number);
-
+    printf("Enter a total subject ");
 
 for(int i =1; i<=subject_number;i++){
 
