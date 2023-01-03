@@ -48,7 +48,7 @@ int main(){
         falied=true;
     }
     total_point+=gread_point;
-    // printf("Total GPA \n= %d",total_point);
+   
 
 }
 
