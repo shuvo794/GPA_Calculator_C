@@ -42,7 +42,7 @@ int main(){
     else{
         printf("F");
     }
-    
+    total_point+=gread_point;
 
 }
 
