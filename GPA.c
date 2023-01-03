@@ -48,9 +48,7 @@ int main(){
         falied=true;
     }
     total_point+=gread_point;
-   
-
-}
+   }
 
 if(falied){
     printf("You have failed");
