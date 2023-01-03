@@ -2,8 +2,9 @@
 
 int main(){
     int subject_number;
-    scanf("%d",&subject_number);
     printf("Enter a total subject ");
+    scanf("%d",&subject_number);
+    
     
     int total_point=0;
 
@@ -12,7 +13,7 @@ int main(){
     int marks,gread_point;
     scanf("%d",&marks);
 
-    printf("ENTER a Mark ");
+    printf("ENTER a Mark \n");
 
     if(marks>=80){
         printf(" GPA  A+\n");
@@ -43,8 +44,11 @@ int main(){
         printf("F");
     }
     total_point+=gread_point;
+    printf("Total GPA \n= %d",total_point);
 
 }
+
+int gpa=total_point/subject_number;
 
 
     
