@@ -44,11 +44,12 @@ int main(){
         printf("F");
     }
     total_point+=gread_point;
-    printf("Total GPA \n= %d",total_point);
+    // printf("Total GPA \n= %d",total_point);
 
 }
 
-int gpa=total_point/subject_number;
+double gpa=(double)total_point/(double)subject_number;
+printf(" gpa =%d\n",gpa);
 
 
     
