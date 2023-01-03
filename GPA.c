@@ -57,7 +57,7 @@ if(falied){
 }
 else{
    double gpa=(double)total_point/(double)subject_number;
-     printf(" gpa =%lf\n",gpa);
+     printf(" GPA =%lf\n",gpa);
 }
 
 
