@@ -50,7 +50,7 @@ int main(){
 }
 
 double gpa=(double)total_point/(double)subject_number;
-printf(" gpa =%d\n",gpa);
+printf(" gpa =%lf\n",gpa);
 
 
     
