@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&subject_number);
     printf("Enter a total subject ");
 
-for(int i =1; i<=subject_number;i++){
+    for(int i =1; i<=subject_number;i++){
 
     int marks,gread_point;
     scanf("%d",&marks);
