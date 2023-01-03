@@ -1,8 +1,16 @@
 #include <stdio.h>
 
 int main(){
+    int subject_number;
+    scanf("%d",&subject_number);
+
+
+for(int i =1; i<=subject_number;i++){
+
     int marks,gread_point;
     scanf("%d",&marks);
+
+    printf("ENTER a Mark ");
 
     if(marks>=80){
         printf(" GPA  A+\n");
@@ -32,6 +40,12 @@ int main(){
     else{
         printf("F");
     }
+
+}
+
+
+    
+
 
 
 
