@@ -4,6 +4,8 @@ int main(){
     int subject_number;
     scanf("%d",&subject_number);
     printf("Enter a total subject ");
+    
+    int total_point=0;
 
     for(int i =1; i<=subject_number;i++){
 
@@ -40,6 +42,7 @@ int main(){
     else{
         printf("F");
     }
+    
 
 }
 
