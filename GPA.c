@@ -8,7 +8,7 @@ int main(){
     
     
     int total_point=0;
-
+    bool falied=false;
     for(int i =1; i<=subject_number;i++){
 
     int marks,gread_point;
@@ -43,19 +43,21 @@ int main(){
         gread_point=2;
     }
     else{
-        printf("F");
+        printf("F\n");
+        gread_point=0;
+        falied=true;
     }
     total_point+=gread_point;
     // printf("Total GPA \n= %d",total_point);
 
 }
 
-if(marks>=33){
-
+if(falied){
+printf("You have failed");
 }
 
-double gpa=(double)total_point/(double)subject_number;
-printf(" gpa =%lf\n",gpa);
+// double gpa=(double)total_point/(double)subject_number;
+// printf(" gpa =%lf\n",gpa);
 
 
     
