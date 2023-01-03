@@ -11,9 +11,10 @@ int main(){
     for(int i =1; i<=subject_number;i++){
 
     int marks,gread_point;
+    printf("ENTER a Mark \n");
     scanf("%d",&marks);
 
-    printf("ENTER a Mark \n");
+    
 
     if(marks>=80){
         printf(" GPA  A+\n");
