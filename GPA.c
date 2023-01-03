@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(){
     int subject_number;
@@ -46,6 +47,10 @@ int main(){
     }
     total_point+=gread_point;
     // printf("Total GPA \n= %d",total_point);
+
+}
+
+if(marks>=33){
 
 }
 
