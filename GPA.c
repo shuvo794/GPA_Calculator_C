@@ -53,11 +53,14 @@ int main(){
 }
 
 if(falied){
-printf("You have failed");
+    printf("You have failed");
+}
+else{
+   double gpa=(double)total_point/(double)subject_number;
+     printf(" gpa =%lf\n",gpa);
 }
 
-// double gpa=(double)total_point/(double)subject_number;
-// printf(" gpa =%lf\n",gpa);
+
 
 
     
