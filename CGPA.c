@@ -61,7 +61,7 @@ else{
    double gpa=(double)total_point/(double)sub;
      printf(" GPA =%.2lf\n",gpa);
      double avarge=gpa/tream;
-    //  double intotal=gpa/tream;
+    
      printf("%.2lf",avarge);
 
 
